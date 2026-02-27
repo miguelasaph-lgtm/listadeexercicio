@@ -1,14 +1,10 @@
-# listadeexercicio// 1 - Criar um programa para exibir uma mensagem: “Olá, mundo.”
-
-console.log(“Olá mundo.”);
-
+// 1 - Criar um programa para exibir uma mensagem: “Olá, mundo.”
+let mensagem = 'ola mundo'
+console.log(mensagem);
 // 2 - Criar um programa que mostre seu nome completo.
-
-let nome = “Felipe Hideki Tanji”;
-console.log(`Meu nome é ${nome}.`);
-
+let nome = 'miguel asaph'
+console.log(nome)
 // 3 - Criar um programa que mostre um número e exiba seu dobro.
-
 let n1 = 9;
 let dobro = n1 * 2;
 console.log(`O número é ${n1} e o dobro é ${dobro}.`);
@@ -20,6 +16,7 @@ let triplo = n1 * 3;
 console.log(`O número é ${n2} e o triplo é ${triplo}.`);
 
 // 5 - Criar um programa que mostre let nota1 = 10;
+let nota1 = 9;
 let nota2 = 8;
 let media = (nota1 + nota2) / 2;
 console.log(`A primeira nota é ${nota1} e a segunda é ${nota2}, a média entre eles é ${media}.`);
@@ -32,12 +29,13 @@ console.log(`${n3} metros é igual a ${n4} centímetros.`);
 
 // 7 - Criar um programa para mostrar o antecessor e o sucessor de um número.
 
-let n5 = 10;
-let n6 = (n5 - 1);
-let n7 = (n5 + 1);
-console.log(`O número antecessor de ${n5} é ${n6}, já o sucessor é ${n7}.`);
-
+let numero2 = 10
+let antecessor = numero2 + 1;
+let sucessor = numero2 + 1;
+console.log('Antecessor:' + antecessor);
+console.log('Sucessor:' + sucessor);
 // 8 - Criar um programa que mostre a área de um retangulo let n5 = 10;
+let n5 = 10
 let n6 = (n5 - 1);
 let n7 = (n5 + 1);
 console.log(`O número antecessor de ${n5} é ${n6}, já o sucessor é ${n7}.`);
@@ -59,7 +57,7 @@ console.log(`O salário de 2000 reais com o aumento ele vai passar a ser ${aumen
 
 let numero = 89;
 if (numero % 2 === 0) {
-    console.log(“Número par!”);
+    console.log('Número par');
 } else {
-    console.log(“Número ímpar!”);
+    console.log('Número ímpar!');
 }
